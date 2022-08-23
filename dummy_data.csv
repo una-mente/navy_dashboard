@@ -1,0 +1,201 @@
+country_of_incidence,sub_region,incidence_datetime,incident_details,culprit_vessel_entity,victim_vessel_entity,type_of_incident__piracy,location_lat,location_lon,type_of_incident__iuu,type_of_drug,total_tonnage_seized,type_of_vessel,incident_category,source_port,destination_port,no_individuals_involved,accident_category,vessel_involved
+CI,EEZ,2015-08-22 14:37:39.061624+00:00,I am detail 1,,627772013,kidnap,0.270618,5.458542,Use of unapproved fishing methods,Cannabis,1.5,Tankers,Suspected,Tema,Talara,1,Man Overboard,627772013
+GH,Territorial waters,2017-08-22 14:37:39.061624+00:01,I am detail 2,,624722013,kidnap,0.636043,4.888522,Illegal Transhipment,Cannabis,2,Tankers,Suspected,,Talara,2,Other,624722013
+LR,Ports/Anchorage,2018-08-22 14:37:39.061624+00:02,I am detail 3,627979013,627792013,,0.605097,5.076753,Fishing in Authorized Areas,Cannabis,3.6,Fishing,Suspected,,,1,Man Overboard,627792013
+TG,EEZ,2022-08-22 14:37:39.061624+00:03,I am detail 4,,627979013,armed robbery,0.59927,5.081002,Fishing in Authorized Areas,Cocaine,1.4,Fishing,Suspected,Takoradi,,3,Medical Emergency,627979013
+CI,Territorial waters,2019-08-22 14:37:39.061624+00:04,I am detail 5,,627772099,armed robbery,0.586478,5.088578,Illegal Transhipment,Others,2.45,Fishing,Confirmed,Tema,Taltal,4,Medical Emergency,627772099
+GH,EEZ,2022-08-22 14:37:39.061624+00:05,I am detail 6,627979014,628184582,armed robbery,0.640577,5.037785,Illegal Transhipment,Cannabis,2.58,Fishing,Confirmed,,,1,Flood,628184582
+LR,Territorial waters,2022-08-22 14:37:39.061624+00:06,I am detail 7,,628510299,,0.625157,5.057208,Illegal Transhipment,Cannabis,2.71,Fishing,Confirmed,,,3,Aground,628510299
+TG,Ports/Anchorage,2015-08-22 14:37:39.061624+00:07,I am detail 8,,628836016,,0.670998,4.998688,Illegal Transhipment,Cannabis,2.84,Fishing,Suspected,Takoradi,,1,Sink,628836016
+CI,EEZ,2017-08-22 14:37:39.061624+00:08,I am detail 9,,629161733,,0.66936,5.000913,Use of unapproved fishing methods,Cocaine,2.97,Others,Suspected,Tema,,2,Fire,629161733
+GH,Territorial waters,2018-08-22 14:37:39.061624+00:09,I am detail 10,,629487451,vessel hijacking,0.664488,5.007242,Fishing in Authorized Areas,Others,3.1,Tankers,Suspected,,Talara,1,Other,629487451
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:10,I am detail 11,627979015,629813168,vessel hijacking,0.650643,5.024785,Use of unapproved fishing methods,Cannabis,3.23,Tankers,Suspected,,Talara,3,Man Overboard,629813168
+TG,EEZ,2019-08-22 14:37:39.061624+00:11,I am detail 12,,630138885,theft,0.698297,4.960587,Illegal Transhipment,Cannabis,3.36,Fishing,Suspected,Takoradi,,4,Other,630138885
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:12,I am detail 13,,630464602,,0.690777,4.9718,Fishing in Authorized Areas,Cannabis,3.49,Fishing,Confirmed,Tema,,1,Man Overboard,630464602
+GH,EEZ,2022-08-22 14:37:39.061624+00:13,I am detail 14,627979016,630790319,suspicious approach,0.689253,4.97409,Fishing in Authorized Areas,Cocaine,3.62,Fishing,Confirmed,,Taltal,3,Medical Emergency,630790319
+LR,Territorial waters,2015-08-22 14:37:39.061624+00:14,I am detail 15,,631116037,suspicious approach,0.132238,5.675733,Illegal Transhipment,Others,3.75,Fishing,Confirmed,,,1,Medical Emergency,631116037
+TG,Ports/Anchorage,2017-08-22 14:37:39.061624+00:15,I am detail 16,,631441754,suspicious approach,0.13202,5.675557,Illegal Transhipment,Cannabis,3.88,Fishing,Suspected,Takoradi,,2,Flood,631441754
+CI,EEZ,2018-08-22 14:37:39.061624+00:16,I am detail 17,,631767471,,0.131808,5.675392,Illegal Transhipment,Cannabis,4.01,Fishing,Suspected,Tema,,1,Aground,631767471
+GH,Territorial waters,2022-08-22 14:37:39.061624+00:17,I am detail 18,,632093188,attempted,0.13094,5.67482,Illegal Transhipment,Cannabis,4.14,Others,Suspected,,,3,Sink,632093188
+LR,Ports/Anchorage,2019-08-22 14:37:39.061624+00:18,I am detail 19,627979017,632418905,others,0.097602,5.64865,Use of unapproved fishing methods,Cocaine,4.27,Tankers,Suspected,,Talara,4,Fire,632418905
+TG,EEZ,2022-08-22 14:37:39.061624+00:19,I am detail 20,,632744623,,0.097547,5.648765,Fishing in Authorized Areas,Others,4.4,Tankers,Suspected,Takoradi,Talara,1,Other,632744623
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:20,I am detail 21,,633070340,,0.097525,5.648858,Use of unapproved fishing methods,Cannabis,4.53,Fishing,Confirmed,Tema,,3,Man Overboard,633070340
+GH,EEZ,2015-08-22 14:37:39.061624+00:21,I am detail 22,627979018,633396057,,0.097445,5.649132,Illegal Transhipment,Cannabis,4.66,Fishing,Confirmed,,,1,Other,633396057
+LR,Territorial waters,2017-08-22 14:37:39.061624+00:22,I am detail 23,,633721774,kidnap,0.097972,5.648722,Fishing in Authorized Areas,Cannabis,4.79,Fishing,Confirmed,,Taltal,2,Man Overboard,633721774
+TG,Ports/Anchorage,2018-08-22 14:37:39.061624+00:23,I am detail 24,,634047491,kidnap,0.097858,5.648515,Fishing in Authorized Areas,Cocaine,4.92,Fishing,Suspected,Takoradi,,1,Medical Emergency,634047491
+CI,EEZ,2022-08-22 14:37:39.061624+00:24,I am detail 25,,634373209,,0.097678,5.648537,Illegal Transhipment,Others,5.05,Fishing,Suspected,Tema,,3,Medical Emergency,634373209
+GH,Territorial waters,2019-08-22 14:37:39.061624+00:25,I am detail 26,,634698926,armed robbery,0.097653,5.648548,Illegal Transhipment,Cannabis,5.18,Fishing,Suspected,,,4,Flood,634698926
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:26,I am detail 27,627979019,635024643,armed robbery,0.093672,5.649468,Illegal Transhipment,Cannabis,5.31,Others,Suspected,,,1,Aground,635024643
+TG,EEZ,2022-08-22 14:37:39.061624+00:27,I am detail 28,,635350360,armed robbery,0.093645,5.649883,Illegal Transhipment,Cannabis,5.44,Tankers,Suspected,Takoradi,Talara,3,Sink,635350360
+CI,Territorial waters,2015-08-22 14:37:39.061624+00:28,I am detail 29,,635676077,,0.093593,5.651145,Use of unapproved fishing methods,Cocaine,5.57,Tankers,Confirmed,Tema,Talara,1,Fire,635676077
+GH,EEZ,2017-08-22 14:37:39.061624+00:29,I am detail 30,627979020,636001795,,0.190018,5.094793,Fishing in Authorized Areas,Others,5.7,Fishing,Confirmed,,,2,Other,636001795
+LR,Territorial waters,2018-08-22 14:37:39.061624+00:30,I am detail 31,,636327512,,0.210977,5.130955,Use of unapproved fishing methods,Cannabis,5.83,Fishing,Confirmed,,,1,Man Overboard,636327512
+TG,Ports/Anchorage,2022-08-22 14:37:39.061624+00:31,I am detail 32,,636653229,vessel hijacking,0.204813,5.118528,Illegal Transhipment,Cannabis,5.96,Fishing,Suspected,Takoradi,Taltal,3,Other,636653229
+CI,EEZ,2019-08-22 14:37:39.061624+00:32,I am detail 33,,636978946,vessel hijacking,0.20274,5.114273,Fishing in Authorized Areas,Cannabis,6.09,Fishing,Suspected,Tema,,4,Man Overboard,636978946
+GH,Territorial waters,2022-08-22 14:37:39.061624+00:33,I am detail 34,,637304663,theft,0.199682,5.108003,Fishing in Authorized Areas,Cocaine,6.22,Fishing,Suspected,,,1,Medical Emergency,637304663
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:34,I am detail 35,627979021,637630381,,0.221988,5.150895,Illegal Transhipment,Others,6.35,Fishing,Suspected,,,3,Medical Emergency,637630381
+TG,EEZ,2015-08-22 14:37:39.061624+00:35,I am detail 36,,637956098,suspicious approach,0.215497,5.140195,Illegal Transhipment,Cannabis,6.48,Others,Suspected,Takoradi,,1,Flood,637956098
+CI,Territorial waters,2017-08-22 14:37:39.061624+00:36,I am detail 37,,638281815,suspicious approach,0.213055,5.135197,Illegal Transhipment,Cannabis,6.61,Tankers,Confirmed,Tema,Talara,2,Aground,638281815
+GH,EEZ,2018-08-22 14:37:39.061624+00:37,I am detail 38,627979022,638607532,suspicious approach,0.212055,5.133128,Illegal Transhipment,Cannabis,6.74,Tankers,Confirmed,,Talara,1,Sink,638607532
+LR,Territorial waters,2022-08-22 14:37:39.061624+00:38,I am detail 39,,638933249,,0.231308,5.16379,Use of unapproved fishing methods,Cocaine,6.87,Fishing,Confirmed,,,3,Fire,638933249
+TG,Ports/Anchorage,2019-08-22 14:37:39.061624+00:39,I am detail 40,,639258967,attempted,0.230758,5.163043,Fishing in Authorized Areas,Others,7,Fishing,Suspected,Takoradi,,4,Other,639258967
+CI,EEZ,2022-08-22 14:37:39.061624+00:40,I am detail 41,,639584684,others,0.228055,5.159272,Use of unapproved fishing methods,Cannabis,7.13,Fishing,Suspected,Tema,Taltal,1,Man Overboard,639584684
+GH,Territorial waters,2022-08-22 14:37:39.061624+00:41,I am detail 42,,639910401,,0.225588,5.155878,Illegal Transhipment,Cannabis,7.26,Fishing,Suspected,,,3,Other,639910401
+LR,Ports/Anchorage,2015-08-22 14:37:39.061624+00:42,I am detail 43,627979023,640236118,,0.247188,5.186057,Fishing in Authorized Areas,Cannabis,7.39,Fishing,Suspected,,,1,Man Overboard,640236118
+TG,EEZ,2017-08-22 14:37:39.061624+00:43,I am detail 44,,640561835,,0.243442,5.180722,Fishing in Authorized Areas,Cocaine,7.52,Fishing,Suspected,Takoradi,,2,Medical Emergency,640561835
+CI,Territorial waters,2018-08-22 14:37:39.061624+00:44,I am detail 45,,640887553,kidnap,0.239835,5.175637,Illegal Transhipment,Others,7.65,Others,Confirmed,Tema,,1,Medical Emergency,640887553
+GH,EEZ,2022-08-22 14:37:39.061624+00:45,I am detail 46,627979024,641213270,kidnap,0.232412,5.165338,Illegal Transhipment,Cannabis,7.78,Tankers,Confirmed,,Talara,3,Flood,641213270
+LR,Territorial waters,2019-08-22 14:37:39.061624+00:46,I am detail 47,,641538987,,0.105267,4.985458,Illegal Transhipment,Cannabis,7.91,Tankers,Confirmed,,Talara,4,Aground,641538987
+TG,Ports/Anchorage,2022-08-22 14:37:39.061624+00:47,I am detail 48,,641864704,armed robbery,0.102215,4.983205,Illegal Transhipment,Cannabis,8.04,Fishing,Suspected,Takoradi,,1,Sink,641864704
+CI,EEZ,2022-08-22 14:37:39.061624+00:48,I am detail 49,,642190421,armed robbery,0.132623,5.003582,Use of unapproved fishing methods,Cocaine,8.17,Fishing,Suspected,Tema,,3,Fire,642190421
+GH,Territorial waters,2015-08-22 14:37:39.061624+00:49,I am detail 50,,642516139,armed robbery,0.132208,5.003342,Fishing in Authorized Areas,Others,8.3,Fishing,Suspected,,Taltal,1,Other,642516139
+LR,Ports/Anchorage,2017-08-22 14:37:39.061624+00:50,I am detail 51,627979025,642841856,,0.120225,4.995865,Use of unapproved fishing methods,Cannabis,8.43,Fishing,Suspected,,,2,Man Overboard,642841856
+TG,EEZ,2018-08-22 14:37:39.061624+00:51,I am detail 52,,643167573,,0.117043,4.99387,Illegal Transhipment,Cannabis,8.56,Fishing,Suspected,Takoradi,,1,Other,643167573
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:52,I am detail 53,,643493290,,0.148098,5.013243,Fishing in Authorized Areas,Cannabis,8.69,Fishing,Confirmed,Tema,,3,Man Overboard,643493290
+GH,EEZ,2019-08-22 14:37:39.061624+00:53,I am detail 54,627979026,643819007,vessel hijacking,0.144993,5.011287,Fishing in Authorized Areas,Cocaine,8.82,Others,Confirmed,,,4,Medical Emergency,643819007
+LR,Territorial waters,2022-08-22 14:37:39.061624+00:54,I am detail 55,,644144725,vessel hijacking,0.142605,5.009795,Illegal Transhipment,Others,8.95,Tankers,Confirmed,,Talara,1,Medical Emergency,644144725
+TG,Ports/Anchorage,2022-08-22 14:37:39.061624+00:55,I am detail 56,,644470442,theft,0.136985,5.006302,Illegal Transhipment,Cannabis,9.08,Tankers,Suspected,Takoradi,Talara,3,Flood,644470442
+CI,EEZ,2015-08-22 14:37:39.061624+00:56,I am detail 57,,644796159,,0.156293,5.016713,Illegal Transhipment,Cannabis,9.21,Fishing,Suspected,Tema,,1,Aground,644796159
+GH,Territorial waters,2017-08-22 14:37:39.061624+00:57,I am detail 58,,645121876,suspicious approach,0.156303,5.01674,Illegal Transhipment,Cannabis,9.34,Fishing,Suspected,,,2,Sink,645121876
+LR,Ports/Anchorage,2018-08-22 14:37:39.061624+00:58,I am detail 59,627979027,645447593,suspicious approach,0.156353,5.016797,Use of unapproved fishing methods,Cocaine,9.47,Fishing,Suspected,,Taltal,1,Fire,645447593
+TG,EEZ,2022-08-22 14:37:39.061624+00:59,I am detail 60,,645773311,suspicious approach,0.153637,5.016703,Fishing in Authorized Areas,Others,9.6,Fishing,Suspected,Takoradi,,3,Other,645773311
+CI,Territorial waters,2019-08-22 14:37:39.061624+00:60,I am detail 61,,646099028,,0.155323,5.015997,Use of unapproved fishing methods,Cannabis,9.73,Fishing,Confirmed,Tema,,4,Man Overboard,646099028
+GH,EEZ,2022-08-22 14:37:39.061624+00:61,I am detail 62,627979028,646424745,attempted,0.155843,5.015183,Illegal Transhipment,Cannabis,9.86,Fishing,Confirmed,,,1,Other,646424745
+LR,Territorial waters,2022-08-22 14:37:39.061624+00:62,I am detail 63,,646750462,others,0.156427,5.016657,Fishing in Authorized Areas,Cannabis,9.99,Others,Confirmed,,,3,Man Overboard,646750462
+TG,Ports/Anchorage,2015-08-22 14:37:39.061624+00:63,I am detail 64,,647076179,,0.1563,5.016695,Fishing in Authorized Areas,Cocaine,10.12,Tankers,Suspected,Takoradi,Talara,1,Medical Emergency,647076179
+CI,EEZ,2017-08-22 14:37:39.061624+00:64,I am detail 65,,647401897,,0.1553,5.031983,Illegal Transhipment,Others,10.25,Tankers,Suspected,Tema,Talara,2,Medical Emergency,647401897
+GH,Territorial waters,2018-08-22 14:37:39.061624+00:65,I am detail 66,,647727614,,0.155247,5.025558,Illegal Transhipment,Cannabis,10.38,Fishing,Suspected,,,1,Flood,647727614
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:66,I am detail 67,627979029,648053331,kidnap,0.573978,4.87236,Illegal Transhipment,Cannabis,10.51,Fishing,Suspected,,,3,Aground,648053331
+TG,EEZ,2019-08-22 14:37:39.061624+00:67,I am detail 68,,648379048,kidnap,0.557627,4.869325,Illegal Transhipment,Cannabis,10.64,Fishing,Suspected,Takoradi,Taltal,4,Sink,648379048
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:68,I am detail 69,,648704765,,0.561567,4.870047,Use of unapproved fishing methods,Cocaine,10.77,Fishing,Confirmed,Tema,,1,Fire,648704765
+GH,EEZ,2022-08-22 14:37:39.061624+00:69,I am detail 70,627979030,649030483,armed robbery,0.567368,4.87111,Fishing in Authorized Areas,Others,10.9,Fishing,Confirmed,,,3,Other,649030483
+LR,Territorial waters,2015-08-22 14:37:39.061624+00:70,I am detail 71,,649356200,armed robbery,0.56776,4.871173,Use of unapproved fishing methods,Cannabis,11.03,Fishing,Confirmed,,,1,Man Overboard,649356200
+TG,Ports/Anchorage,2017-08-22 14:37:39.061624+00:71,I am detail 72,,649681917,armed robbery,0.542582,4.864725,Illegal Transhipment,Cannabis,11.16,Others,Suspected,Takoradi,,2,Other,649681917
+CI,EEZ,2018-08-22 14:37:39.061624+00:72,I am detail 73,,650007634,,0.544298,4.866922,Fishing in Authorized Areas,Cannabis,11.29,Tankers,Suspected,Tema,Talara,1,Man Overboard,650007634
+GH,Territorial waters,2022-08-22 14:37:39.061624+00:73,I am detail 74,,650333351,,0.550975,4.868155,Fishing in Authorized Areas,Cocaine,11.42,Tankers,Suspected,,Talara,3,Medical Emergency,650333351
+LR,Ports/Anchorage,2019-08-22 14:37:39.061624+00:74,I am detail 75,627979031,650659069,,0.550975,4.868155,Illegal Transhipment,Others,11.55,Fishing,Suspected,,,4,Medical Emergency,650659069
+TG,EEZ,2022-08-22 14:37:39.061624+00:75,I am detail 76,,650984786,vessel hijacking,0.531352,4.845928,Illegal Transhipment,Cannabis,11.68,Fishing,Suspected,Takoradi,,1,Flood,650984786
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:76,I am detail 77,,651310503,vessel hijacking,0.536332,4.853653,Illegal Transhipment,Cannabis,11.81,Fishing,Confirmed,Tema,Taltal,3,Aground,651310503
+GH,EEZ,2015-08-22 14:37:39.061624+00:77,I am detail 78,627979032,651636220,theft,0.543247,4.863813,Illegal Transhipment,Cannabis,11.94,Fishing,Confirmed,,,1,Sink,651636220
+LR,Territorial waters,2017-08-22 14:37:39.061624+00:78,I am detail 79,,651961937,,0.54265,4.86588,Use of unapproved fishing methods,Cocaine,12.07,Fishing,Confirmed,,,2,Fire,651961937
+TG,Ports/Anchorage,2018-08-22 14:37:39.061624+00:79,I am detail 80,,652287655,suspicious approach,0.516472,4.823295,Fishing in Authorized Areas,Others,12.2,Fishing,Suspected,Takoradi,,1,Other,652287655
+CI,EEZ,2022-08-22 14:37:39.061624+00:80,I am detail 81,,652613372,suspicious approach,0.516908,4.823995,Use of unapproved fishing methods,Cannabis,12.33,Others,Suspected,Tema,,3,Man Overboard,652613372
+GH,Territorial waters,2019-08-22 14:37:39.061624+00:81,I am detail 82,,652939089,suspicious approach,0.520475,4.829495,Illegal Transhipment,Cannabis,12.46,Tankers,Suspected,,Talara,4,Other,652939089
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:82,I am detail 83,627979033,653264806,,0.525813,4.837522,Fishing in Authorized Areas,Cannabis,12.59,Tankers,Suspected,,Talara,1,Man Overboard,653264806
+TG,EEZ,2022-08-22 14:37:39.061624+00:83,I am detail 84,,653590523,attempted,0.509573,4.813075,Fishing in Authorized Areas,Cocaine,12.72,Fishing,Suspected,Takoradi,,3,Medical Emergency,653590523
+CI,Territorial waters,2015-08-22 14:37:39.061624+00:84,I am detail 85,,653916241,others,0.513527,4.818948,Illegal Transhipment,Others,12.85,Fishing,Confirmed,Tema,,1,Medical Emergency,653916241
+GH,EEZ,2017-08-22 14:37:39.061624+00:85,I am detail 86,627979034,654241958,,0.514007,4.819638,Illegal Transhipment,Cannabis,12.98,Fishing,Confirmed,,Taltal,2,Flood,654241958
+LR,Territorial waters,2018-08-22 14:37:39.061624+00:86,I am detail 87,,654567675,,0.514488,4.820367,Illegal Transhipment,Cannabis,13.11,Fishing,Confirmed,,,1,Aground,654567675
+TG,Ports/Anchorage,2022-08-22 14:37:39.061624+00:87,I am detail 88,,654893392,,0.715002,5.028753,Illegal Transhipment,Cannabis,13.24,Fishing,Suspected,Takoradi,,3,Sink,654893392
+CI,EEZ,2019-08-22 14:37:39.061624+00:88,I am detail 89,,655219109,kidnap,0.717498,5.02837,Use of unapproved fishing methods,Cocaine,13.37,Fishing,Suspected,Tema,,4,Fire,655219109
+GH,Territorial waters,2022-08-22 14:37:39.061624+00:89,I am detail 90,,655544827,kidnap,0.720492,5.027893,Fishing in Authorized Areas,Others,13.5,Others,Suspected,,,1,Other,655544827
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:90,I am detail 91,627979035,655870544,,0.723038,5.027518,Use of unapproved fishing methods,Cannabis,13.63,Tankers,Suspected,,Talara,3,Man Overboard,655870544
+TG,EEZ,2015-08-22 14:37:39.061624+00:91,I am detail 92,,656196261,armed robbery,0.712003,5.029203,Illegal Transhipment,Cannabis,13.76,Tankers,Suspected,Takoradi,Talara,1,Other,656196261
+CI,Territorial waters,2017-08-22 14:37:39.061624+00:92,I am detail 93,,656521978,armed robbery,0.712957,5.029055,Fishing in Authorized Areas,Cannabis,13.89,Fishing,Confirmed,Tema,,2,Man Overboard,656521978
+GH,EEZ,2018-08-22 14:37:39.061624+00:93,I am detail 94,627979036,656847695,armed robbery,0.714055,5.028902,Fishing in Authorized Areas,Cocaine,14.02,Fishing,Confirmed,,,1,Medical Emergency,656847695
+LR,Territorial waters,2022-08-22 14:37:39.061624+00:94,I am detail 95,,657173413,,0.715002,5.028753,Illegal Transhipment,Others,8.3,Fishing,Confirmed,,Taltal,3,Medical Emergency,657173413
+TG,Ports/Anchorage,2019-08-22 14:37:39.061624+00:95,I am detail 96,,657499130,,0.70944,5.029582,Illegal Transhipment,Cannabis,8.43,Fishing,Suspected,Takoradi,,4,Flood,657499130
+CI,EEZ,2022-08-22 14:37:39.061624+00:96,I am detail 97,,657824847,,0.709945,5.029513,Illegal Transhipment,Cannabis,8.56,Fishing,Suspected,Tema,,1,Aground,657824847
+GH,Territorial waters,2022-08-22 14:37:39.061624+00:97,I am detail 98,,658150564,vessel hijacking,0.710502,5.029428,Illegal Transhipment,Cannabis,8.69,Fishing,Suspected,,,3,Sink,658150564
+LR,Ports/Anchorage,2015-08-22 14:37:39.061624+00:98,I am detail 99,627979037,658476281,vessel hijacking,0.711498,5.029273,Use of unapproved fishing methods,Cocaine,8.82,Others,Suspected,,,1,Fire,658476281
+TG,EEZ,2017-08-22 14:37:39.061624+00:99,I am detail 100,,658801999,theft,0.703423,5.030512,Fishing in Authorized Areas,Others,8.95,Tankers,Suspected,Takoradi,Talara,2,Other,658801999
+CI,Territorial waters,2018-08-22 14:37:39.061624+00:00,I am detail 101,,659127716,,0.70392,5.030433,Use of unapproved fishing methods,Cannabis,9.08,Tankers,Confirmed,Tema,Talara,1,Man Overboard,659127716
+GH,EEZ,2022-08-22 14:37:39.061624+00:01,I am detail 102,627979038,659453433,suspicious approach,0.70642,5.030045,Illegal Transhipment,Cannabis,9.21,Fishing,Confirmed,,,3,Other,659453433
+LR,Territorial waters,2019-08-22 14:37:39.061624+00:02,I am detail 103,,659779150,suspicious approach,0.706927,5.029977,Fishing in Authorized Areas,Cannabis,9.34,Fishing,Confirmed,,,4,Man Overboard,659779150
+TG,Ports/Anchorage,2022-08-22 14:37:39.061624+00:03,I am detail 104,,660104867,suspicious approach,0.684637,5.03326,Fishing in Authorized Areas,Cocaine,9.47,Fishing,Suspected,Takoradi,Taltal,1,Medical Emergency,660104867
+CI,EEZ,2022-08-22 14:37:39.061624+00:04,I am detail 105,,660430585,,0.686545,5.032988,Illegal Transhipment,Others,15.45,Fishing,Suspected,Tema,,3,Medical Emergency,660430585
+GH,Territorial waters,2015-08-22 14:37:39.061624+00:05,I am detail 106,,660756302,attempted,0.694352,5.031815,Illegal Transhipment,Cannabis,15.58,Fishing,Suspected,,,1,Flood,660756302
+LR,Ports/Anchorage,2017-08-22 14:37:39.061624+00:06,I am detail 107,627979039,661082019,others,0.695977,5.031605,Illegal Transhipment,Cannabis,15.71,Fishing,Suspected,,,2,Aground,661082019
+TG,EEZ,2018-08-22 14:37:39.061624+00:07,I am detail 108,,661407736,,0.669247,5.035588,Illegal Transhipment,Cannabis,15.84,Others,Suspected,Takoradi,,1,Sink,661407736
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:08,I am detail 109,,661733453,,0.670258,5.03544,Use of unapproved fishing methods,Cocaine,15.97,Tankers,Confirmed,Tema,Talara,3,Fire,661733453
+GH,EEZ,2019-08-22 14:37:39.061624+00:09,I am detail 110,627979040,662059171,,0.675468,5.034613,Fishing in Authorized Areas,Others,16.1,Tankers,Confirmed,,Talara,4,Other,662059171
+LR,Territorial waters,2022-08-22 14:37:39.061624+00:10,I am detail 111,,662384888,kidnap,0.68033,5.033908,Use of unapproved fishing methods,Cannabis,16.23,Fishing,Confirmed,,,1,Man Overboard,662384888
+TG,Ports/Anchorage,2022-08-22 14:37:39.061624+00:11,I am detail 112,,662710605,kidnap,0.653975,5.037555,Illegal Transhipment,Cannabis,16.36,Fishing,Suspected,Takoradi,,3,Other,662710605
+CI,EEZ,2015-08-22 14:37:39.061624+00:12,I am detail 113,,663036322,,0.658733,5.037102,Fishing in Authorized Areas,Cannabis,16.49,Fishing,Suspected,Tema,Taltal,1,Man Overboard,663036322
+GH,Territorial waters,2017-08-22 14:37:39.061624+00:13,I am detail 114,,663362039,armed robbery,0.664492,5.036275,Fishing in Authorized Areas,Cocaine,16.62,Fishing,Suspected,,,2,Medical Emergency,663362039
+LR,Ports/Anchorage,2018-08-22 14:37:39.061624+00:14,I am detail 115,627979041,663687757,armed robbery,0.667367,5.035877,Illegal Transhipment,Others,8.3,Fishing,Suspected,,,1,Medical Emergency,663687757
+TG,EEZ,2022-08-22 14:37:39.061624+00:15,I am detail 116,,664013474,armed robbery,0.645608,5.04001,Illegal Transhipment,Cannabis,8.43,Fishing,Suspected,Takoradi,,3,Flood,664013474
+CI,Territorial waters,2019-08-22 14:37:39.061624+00:16,I am detail 117,,664339191,,0.645783,5.039378,Illegal Transhipment,Cannabis,8.56,Others,Confirmed,Tema,,4,Aground,664339191
+GH,EEZ,2022-08-22 14:37:39.061624+00:17,I am detail 118,627979042,664664908,,0.645992,5.038998,Illegal Transhipment,Cannabis,8.69,Tankers,Confirmed,,Talara,1,Sink,664664908
+LR,Territorial waters,2022-08-22 14:37:39.061624+00:18,I am detail 119,,664990625,,0.647568,5.037932,Use of unapproved fishing methods,Cocaine,8.82,Tankers,Confirmed,,Talara,3,Fire,664990625
+TG,Ports/Anchorage,2015-08-22 14:37:39.061624+00:19,I am detail 120,,665316343,vessel hijacking,0.841102,5.032103,Fishing in Authorized Areas,Others,8.95,Fishing,Suspected,Takoradi,,1,Other,665316343
+CI,EEZ,2017-08-22 14:37:39.061624+00:20,I am detail 121,,665642060,vessel hijacking,0.846747,5.033818,Use of unapproved fishing methods,Cannabis,9.08,Fishing,Suspected,Tema,,2,Man Overboard,665642060
+GH,Territorial waters,2018-08-22 14:37:39.061624+00:21,I am detail 122,,665967777,theft,0.856188,5.036633,Illegal Transhipment,Cannabis,9.21,Fishing,Suspected,,Taltal,1,Other,665967777
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:22,I am detail 123,627979043,666293494,,0.862315,5.038438,Fishing in Authorized Areas,Cannabis,9.34,Fishing,Suspected,,,3,Man Overboard,666293494
+TG,EEZ,2019-08-22 14:37:39.061624+00:23,I am detail 124,,666619211,suspicious approach,0.825212,5.027295,Fishing in Authorized Areas,Cocaine,9.47,Fishing,Suspected,Takoradi,,4,Medical Emergency,666619211
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:24,I am detail 125,,666944929,suspicious approach,0.830772,5.028998,Illegal Transhipment,Others,18.05,Fishing,Confirmed,Tema,,1,Medical Emergency,666944929
+GH,EEZ,2022-08-22 14:37:39.061624+00:25,I am detail 126,627979044,667270646,suspicious approach,0.831202,5.02911,Illegal Transhipment,Cannabis,18.18,Others,Confirmed,,,3,Flood,667270646
+LR,Territorial waters,2015-08-22 14:37:39.061624+00:26,I am detail 127,,667596363,,0.837395,5.030955,Illegal Transhipment,Cannabis,18.31,Tankers,Confirmed,,Talara,1,Aground,667596363
+TG,Ports/Anchorage,2017-08-22 14:37:39.061624+00:27,I am detail 128,,667922080,attempted,0.82048,5.027858,Illegal Transhipment,Cannabis,18.44,Tankers,Suspected,Takoradi,Talara,2,Sink,667922080
+CI,EEZ,2018-08-22 14:37:39.061624+00:28,I am detail 129,,668247797,others,0.820705,5.026802,Use of unapproved fishing methods,Cocaine,18.57,Fishing,Suspected,Tema,,1,Fire,668247797
+GH,Territorial waters,2022-08-22 14:37:39.061624+00:29,I am detail 130,,668573515,,0.820705,5.026802,Fishing in Authorized Areas,Others,18.7,Fishing,Suspected,,,3,Other,668573515
+LR,Ports/Anchorage,2019-08-22 14:37:39.061624+00:30,I am detail 131,627979045,668899232,,0.825212,5.027295,Use of unapproved fishing methods,Cannabis,18.83,Fishing,Suspected,,Taltal,4,Man Overboard,668899232
+TG,EEZ,2022-08-22 14:37:39.061624+00:31,I am detail 132,,669224949,,0.820478,5.029002,Illegal Transhipment,Cannabis,18.96,Fishing,Suspected,Takoradi,,1,Other,669224949
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:32,I am detail 133,,669550666,kidnap,0.823357,5.03017,Fishing in Authorized Areas,Cannabis,19.09,Fishing,Confirmed,Tema,,3,Man Overboard,669550666
+GH,EEZ,2015-08-22 14:37:39.061624+00:33,I am detail 134,627979046,669876383,kidnap,0.822727,5.030837,Fishing in Authorized Areas,Cocaine,19.22,Fishing,Confirmed,,,1,Medical Emergency,669876383
+LR,Territorial waters,2017-08-22 14:37:39.061624+00:34,I am detail 135,,670202101,,0.821052,5.029243,Illegal Transhipment,Others,19.35,Others,Confirmed,,,2,Medical Emergency,670202101
+TG,Ports/Anchorage,2018-08-22 14:37:39.061624+00:35,I am detail 136,,670527818,armed robbery,0.785858,5.02551,Illegal Transhipment,Cannabis,8.3,Tankers,Suspected,Takoradi,Talara,1,Flood,670527818
+CI,EEZ,2022-08-22 14:37:39.061624+00:36,I am detail 137,,670853535,armed robbery,0.796493,5.026493,Illegal Transhipment,Cannabis,8.43,Tankers,Suspected,Tema,Talara,3,Aground,670853535
+GH,Territorial waters,2019-08-22 14:37:39.061624+00:37,I am detail 138,,671179252,armed robbery,0.801922,5.027042,Illegal Transhipment,Cannabis,8.56,Fishing,Suspected,,,4,Sink,671179252
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:38,I am detail 139,627979047,671504969,,0.81461,5.028202,Use of unapproved fishing methods,Cocaine,8.69,Fishing,Suspected,,,1,Fire,671504969
+TG,EEZ,2022-08-22 14:37:39.061624+00:39,I am detail 140,,671830687,,0.76973,5.025143,Fishing in Authorized Areas,Others,8.82,Fishing,Suspected,Takoradi,Taltal,3,Other,671830687
+CI,Territorial waters,2015-08-22 14:37:39.061624+00:40,I am detail 141,,672156404,,0.774105,5.025187,Use of unapproved fishing methods,Cannabis,8.95,Fishing,Confirmed,Tema,,1,Man Overboard,672156404
+GH,EEZ,2017-08-22 14:37:39.061624+00:41,I am detail 142,627979048,672482121,vessel hijacking,0.781,5.025195,Illegal Transhipment,Cannabis,9.08,Fishing,Confirmed,,,2,Other,672482121
+LR,Territorial waters,2018-08-22 14:37:39.061624+00:42,I am detail 143,,672807838,vessel hijacking,0.783393,5.025208,Fishing in Authorized Areas,Cannabis,9.21,Fishing,Confirmed,,,1,Man Overboard,672807838
+TG,Ports/Anchorage,2022-08-22 14:37:39.061624+00:43,I am detail 144,,673133555,theft,0.748883,5.02524,Fishing in Authorized Areas,Cocaine,9.34,Others,Suspected,Takoradi,,3,Medical Emergency,673133555
+CI,EEZ,2019-08-22 14:37:39.061624+00:44,I am detail 145,,673459273,,0.755362,5.025052,Illegal Transhipment,Others,9.47,Tankers,Suspected,Tema,Talara,4,Medical Emergency,673459273
+GH,Territorial waters,2022-08-22 14:37:39.061624+00:45,I am detail 146,,673784990,suspicious approach,0.763758,5.025143,Illegal Transhipment,Cannabis,20.78,Tankers,Suspected,,Talara,1,Flood,673784990
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:46,I am detail 147,627979049,674110707,suspicious approach,0.766725,5.025175,Illegal Transhipment,Cannabis,20.91,Fishing,Suspected,,,3,Aground,674110707
+TG,EEZ,2015-08-22 14:37:39.061624+00:47,I am detail 148,,674436424,suspicious approach,0.72349,5.027452,Illegal Transhipment,Cannabis,21.04,Fishing,Suspected,Takoradi,,1,Sink,674436424
+CI,Territorial waters,2017-08-22 14:37:39.061624+00:48,I am detail 149,,674762141,,0.73599,5.026212,Use of unapproved fishing methods,Cocaine,21.17,Fishing,Confirmed,Tema,Taltal,2,Fire,674762141
+GH,EEZ,2018-08-22 14:37:39.061624+00:49,I am detail 150,627979050,675087859,attempted,0.744362,5.02556,Fishing in Authorized Areas,Others,21.3,Fishing,Confirmed,,,1,Other,675087859
+LR,Territorial waters,2022-08-22 14:37:39.061624+00:50,I am detail 151,,675413576,others,0.748883,5.02524,Use of unapproved fishing methods,Cannabis,21.43,Fishing,Confirmed,,,3,Man Overboard,675413576
+TG,Ports/Anchorage,2019-08-22 14:37:39.061624+00:51,I am detail 152,,675739293,,0.912888,5.054215,Illegal Transhipment,Cannabis,21.56,Fishing,Suspected,Takoradi,,4,Other,675739293
+CI,EEZ,2022-08-22 14:37:39.061624+00:52,I am detail 153,,676065010,,0.912268,5.055855,Fishing in Authorized Areas,Cannabis,21.69,Others,Suspected,Tema,,1,Man Overboard,676065010
+GH,Territorial waters,2022-08-22 14:37:39.061624+00:53,I am detail 154,,676390727,,0.910217,5.061072,Fishing in Authorized Areas,Cocaine,21.82,Tankers,Suspected,,Talara,3,Medical Emergency,676390727
+LR,Ports/Anchorage,2015-08-22 14:37:39.061624+00:54,I am detail 155,627979051,676716445,kidnap,0.909848,5.06202,Illegal Transhipment,Others,21.95,Tankers,Suspected,,Talara,1,Medical Emergency,676716445
+TG,EEZ,2017-08-22 14:37:39.061624+00:55,I am detail 156,,677042162,kidnap,0.913687,5.05154,Illegal Transhipment,Cannabis,22.08,Fishing,Suspected,Takoradi,,2,Flood,677042162
+CI,Territorial waters,2018-08-22 14:37:39.061624+00:56,I am detail 157,,677367879,,0.913418,5.052378,Illegal Transhipment,Cannabis,22.21,Fishing,Confirmed,Tema,,1,Aground,677367879
+GH,EEZ,2022-08-22 14:37:39.061624+00:57,I am detail 158,627979052,677693596,armed robbery,0.91318,5.053283,Illegal Transhipment,Cannabis,22.34,Fishing,Confirmed,,Taltal,3,Sink,677693596
+LR,Territorial waters,2019-08-22 14:37:39.061624+00:58,I am detail 159,,678019313,armed robbery,0.91318,5.053283,Use of unapproved fishing methods,Cocaine,22.47,Fishing,Confirmed,,,4,Fire,678019313
+TG,Ports/Anchorage,2022-08-22 14:37:39.061624+00:59,I am detail 160,,678345031,armed robbery,0.914995,5.047367,Fishing in Authorized Areas,Others,22.6,Fishing,Suspected,Takoradi,,1,Other,678345031
+CI,EEZ,2022-08-22 14:37:39.061624+00:60,I am detail 161,,678670748,,0.914732,5.048115,Use of unapproved fishing methods,Cannabis,22.73,Fishing,Suspected,Tema,,3,Man Overboard,678670748
+GH,Territorial waters,2015-08-22 14:37:39.061624+00:61,I am detail 162,,678996465,,0.91446,5.04895,Illegal Transhipment,Cannabis,22.86,Others,Suspected,,,1,Other,678996465
+LR,Ports/Anchorage,2017-08-22 14:37:39.061624+00:62,I am detail 163,627979053,679322182,,0.91423,5.049752,Fishing in Authorized Areas,Cannabis,22.99,Tankers,Suspected,,Talara,2,Man Overboard,679322182
+TG,EEZ,2018-08-22 14:37:39.061624+00:63,I am detail 164,,679647899,vessel hijacking,0.913058,5.046638,Fishing in Authorized Areas,Cocaine,8.3,Tankers,Suspected,Takoradi,Talara,1,Medical Emergency,679647899
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:64,I am detail 165,,679973617,vessel hijacking,0.91337,5.046073,Illegal Transhipment,Others,8.43,Fishing,Confirmed,Tema,,3,Medical Emergency,679973617
+GH,EEZ,2019-08-22 14:37:39.061624+00:65,I am detail 166,627979054,680299334,theft,0.913568,5.045602,Illegal Transhipment,Cannabis,8.56,Fishing,Confirmed,,,4,Flood,680299334
+LR,Territorial waters,2022-08-22 14:37:39.061624+00:66,I am detail 167,,680625051,,0.914815,5.045537,Illegal Transhipment,Cannabis,8.69,Fishing,Confirmed,,Taltal,1,Aground,680625051
+TG,Ports/Anchorage,2022-08-22 14:37:39.061624+00:67,I am detail 168,,680950768,suspicious approach,0.913548,5.044712,Illegal Transhipment,Cannabis,8.82,Fishing,Suspected,Takoradi,,3,Sink,680950768
+CI,EEZ,2015-08-22 14:37:39.061624+00:68,I am detail 169,,681276485,suspicious approach,0.914337,5.044525,Use of unapproved fishing methods,Cocaine,8.95,Fishing,Suspected,Tema,,1,Fire,681276485
+GH,Territorial waters,2017-08-22 14:37:39.061624+00:69,I am detail 170,,681602203,suspicious approach,0.914118,5.047217,Fishing in Authorized Areas,Others,9.08,Fishing,Suspected,,,2,Other,681602203
+LR,Ports/Anchorage,2018-08-22 14:37:39.061624+00:70,I am detail 171,627979055,681927920,,0.91306,5.046772,Use of unapproved fishing methods,Cannabis,9.21,Others,Suspected,,,1,Man Overboard,681927920
+TG,EEZ,2022-08-22 14:37:39.061624+00:71,I am detail 172,,682253637,attempted,0.913545,5.048053,Illegal Transhipment,Cannabis,9.34,Tankers,Suspected,Takoradi,Talara,3,Other,682253637
+CI,Territorial waters,2019-08-22 14:37:39.061624+00:72,I am detail 173,,682579354,others,0.91416,5.04599,Fishing in Authorized Areas,Cannabis,9.47,Tankers,Confirmed,Tema,Talara,4,Man Overboard,682579354
+GH,EEZ,2022-08-22 14:37:39.061624+00:73,I am detail 174,627979056,682905071,,0.91393,5.045437,Fishing in Authorized Areas,Cocaine,24.42,Fishing,Confirmed,,,1,Medical Emergency,682905071
+LR,Territorial waters,2022-08-22 14:37:39.061624+00:74,I am detail 175,,683230789,,0.913785,5.045225,Illegal Transhipment,Others,24.55,Fishing,Confirmed,,,3,Medical Emergency,683230789
+TG,Ports/Anchorage,2015-08-22 14:37:39.061624+00:75,I am detail 176,,683556506,,0.900452,5.049032,Illegal Transhipment,Cannabis,24.68,Fishing,Suspected,Takoradi,Taltal,1,Flood,683556506
+CI,EEZ,2017-08-22 14:37:39.061624+00:76,I am detail 177,,683882223,kidnap,0.90921,5.049883,Illegal Transhipment,Cannabis,24.81,Fishing,Suspected,Tema,,2,Aground,683882223
+GH,Territorial waters,2018-08-22 14:37:39.061624+00:77,I am detail 178,,684207940,kidnap,0.911883,5.04965,Illegal Transhipment,Cannabis,24.94,Fishing,Suspected,,,1,Sink,684207940
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:78,I am detail 179,627979057,684533657,,0.9128,5.049137,Use of unapproved fishing methods,Cocaine,25.07,Fishing,Suspected,,,3,Fire,684533657
+TG,EEZ,2019-08-22 14:37:39.061624+00:79,I am detail 180,,684859375,armed robbery,0.886552,5.045488,Fishing in Authorized Areas,Others,25.2,Others,Suspected,Takoradi,,4,Other,684859375
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:80,I am detail 181,,685185092,armed robbery,0.89093,5.046717,Use of unapproved fishing methods,Cannabis,8.3,Tankers,Confirmed,Tema,Talara,1,Man Overboard,685185092
+GH,EEZ,2022-08-22 14:37:39.061624+00:81,I am detail 182,627979058,685510809,armed robbery,0.894697,5.047805,Illegal Transhipment,Cannabis,8.43,Tankers,Confirmed,,Talara,3,Other,685510809
+LR,Territorial waters,2015-08-22 14:37:39.061624+00:82,I am detail 183,,685836526,,0.898008,5.048762,Fishing in Authorized Areas,Cannabis,8.56,Fishing,Confirmed,,,1,Man Overboard,685836526
+TG,Ports/Anchorage,2017-08-22 14:37:39.061624+00:83,I am detail 184,,686162243,,0.98524,4.667283,Fishing in Authorized Areas,Cocaine,8.69,Fishing,Suspected,Takoradi,,2,Medical Emergency,686162243
+CI,EEZ,2018-08-22 14:37:39.061624+00:84,I am detail 185,,686487961,,0.979885,4.661738,Illegal Transhipment,Others,8.82,Fishing,Suspected,Tema,Taltal,1,Medical Emergency,686487961
+GH,Territorial waters,2022-08-22 14:37:39.061624+00:85,I am detail 186,,686813678,vessel hijacking,0.978587,4.65901,Illegal Transhipment,Cannabis,8.95,Fishing,Suspected,,,3,Flood,686813678
+LR,Ports/Anchorage,2019-08-22 14:37:39.061624+00:86,I am detail 187,627979059,687139395,vessel hijacking,0.979428,4.659468,Illegal Transhipment,Cannabis,9.08,Fishing,Suspected,,,4,Aground,687139395
+TG,EEZ,2022-08-22 14:37:39.061624+00:87,I am detail 188,,687465112,theft,0.985157,4.665957,Illegal Transhipment,Cannabis,9.21,Fishing,Suspected,Takoradi,,1,Sink,687465112
+CI,Territorial waters,2022-08-22 14:37:39.061624+00:88,I am detail 189,,687790829,,0.985,4.667863,Use of unapproved fishing methods,Cocaine,9.34,Others,Confirmed,Tema,,3,Fire,687790829
+GH,EEZ,2015-08-22 14:37:39.061624+00:89,I am detail 190,627979060,688116547,suspicious approach,0.98517,4.668182,Fishing in Authorized Areas,Others,9.47,Tankers,Confirmed,,Talara,1,Other,688116547
+LR,Territorial waters,2017-08-22 14:37:39.061624+00:90,I am detail 191,,688442264,suspicious approach,0.985375,4.667805,Use of unapproved fishing methods,Cannabis,26.63,Tankers,Confirmed,,Talara,2,Man Overboard,688442264
+TG,Ports/Anchorage,2018-08-22 14:37:39.061624+00:91,I am detail 192,,688767981,suspicious approach,0.985317,4.663342,Illegal Transhipment,Cannabis,8.3,Fishing,Suspected,Takoradi,,1,Other,688767981
+CI,EEZ,2022-08-22 14:37:39.061624+00:92,I am detail 193,,689093698,,0.984387,4.665833,Fishing in Authorized Areas,Cannabis,8.43,Fishing,Suspected,Tema,,3,Man Overboard,689093698
+GH,Territorial waters,2019-08-22 14:37:39.061624+00:93,I am detail 194,,689419415,attempted,0.98344,4.667165,Fishing in Authorized Areas,Cocaine,8.56,Fishing,Suspected,,Taltal,4,Medical Emergency,689419415
+LR,Ports/Anchorage,2022-08-22 14:37:39.061624+00:94,I am detail 195,627979061,689745133,others,0.982882,4.666327,Illegal Transhipment,Others,8.69,Fishing,Suspected,,,1,Medical Emergency,689745133
+TG,EEZ,2022-08-22 14:37:39.061624+00:95,I am detail 196,,690070850,,0.989745,4.63696,Illegal Transhipment,Cannabis,8.82,Fishing,Suspected,Takoradi,,3,Flood,690070850
+CI,Territorial waters,2015-08-22 14:37:39.061624+00:96,I am detail 197,,690396567,,0.988878,4.642492,Illegal Transhipment,Cannabis,8.95,Fishing,Confirmed,Tema,,1,Aground,690396567
+GH,EEZ,2017-08-22 14:37:39.061624+00:97,I am detail 198,627979062,690722284,,0.98847,4.645253,Illegal Transhipment,Cannabis,9.08,Others,Confirmed,,,2,Sink,690722284
+LR,Territorial waters,2018-08-22 14:37:39.061624+00:98,I am detail 199,,691048001,kidnap,0.987003,4.655168,Use of unapproved fishing methods,Cocaine,9.21,Tankers,Confirmed,,Talara,1,Fire,691048001
+TG,Ports/Anchorage,2022-08-22 14:37:39.061624+00:99,I am detail 200,,691373719,kidnap,0.840163,5.109257,Fishing in Authorized Areas,Others,9.34,Tankers,Suspected,Takoradi,Talara,3,Other,691373719
