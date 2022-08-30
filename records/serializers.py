@@ -28,8 +28,7 @@ class DrugTraffickingSerializer(CountryFieldMixin, serializers.ModelSerializer):
 class ShipToShipSerializer(CountryFieldMixin, serializers.ModelSerializer):
     class Meta:
         model = ShipToShip
-        fields = ('type_of_vessel', 'location_of_incident', 'country_of_incidence', 'sub_region', 'incidence_datetime',
-                  'incident_details')
+        fields = ('type_of_vessel', 'country_of_incidence', 'sub_region', 'incidence_datetime', 'incident_details')
 
 
 class StowAwaySerializer(CountryFieldMixin, serializers.ModelSerializer):
@@ -42,5 +41,4 @@ class StowAwaySerializer(CountryFieldMixin, serializers.ModelSerializer):
 class MaritimeAccidentsSerializer(CountryFieldMixin, serializers.ModelSerializer):
     class Meta:
         model = MaritimeAccidents
-        fields = ('accident_category', 'location_of_incident', 'country_of_incidence', 'sub_region',
-                  'incidence_datetime', 'incident_details')
+        fields = ('accident_category', 'country_of_incidence', 'sub_region', 'incidence_datetime', 'incident_details')
