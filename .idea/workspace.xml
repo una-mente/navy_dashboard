@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f454a694-7872-46d9-8625-97d65f88d9f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dummy_data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/dummy_data.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/records/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/records/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/records/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/records/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/navy_dashboard_dj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/navy_dashboard_dj/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/records/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/records/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +71,8 @@
       <option name="presentableId" value="Default" />
       <updated>1661109938550</updated>
       <workItem from="1661109973252" duration="35738000" />
-      <workItem from="1661892853450" duration="2557000" />
+      <workItem from="1661892853450" duration="3139000" />
+      <workItem from="1662233062862" duration="1867000" />
     </task>
     <servers />
   </component>

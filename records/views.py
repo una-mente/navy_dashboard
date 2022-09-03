@@ -46,7 +46,7 @@ def my_incidents(request, model, selection_group, data_format):
         all_model_objs = selected_model.objects.all()
         unique_years = [date.year for date in all_model_objs.dates('incidence_datetime', 'year')]
         unique_years.sort()
-        serializer_data = []
+        serializer_data = {}
         if selection_group == "all":
             my_serializer = PiracySerializer(all_model_objs, many=True)
             return Response(my_serializer.data) if data_format == 'raw' else Response({'all': len(my_serializer.data)})
@@ -58,68 +58,47 @@ def my_incidents(request, model, selection_group, data_format):
                             many=True
                         ).data
                 if data_format == 'raw':
-                    serializer_data.append(
-                        {
-                            country_name: by_country
-                        }
-                    )
+                    serializer_data[country_name] = by_country
                 else:
-                    serializer_data.append(
-                        {
-                            country_name: len(by_country)
-                        }
-                    )
+                    serializer_data[country_name] = len(by_country)
 
         elif selection_group == "incidence_year":
             for year in unique_years:
                 by_year = selected_serializer(all_model_objs.filter(incidence_datetime__year=year), many=True).data
                 if data_format == 'raw':
-                    serializer_data.append(
-                        {year: by_year}
-                    )
+                    serializer_data[year] = by_year
                 else:
-                    serializer_data.append(
-                        {year: len(by_year)}
-                    )
+                    serializer_data[year] = len(by_year)
         elif selection_group == "incidence_year_country":
             for year in unique_years:
-                location_data = []
+                location_data = {}
                 for country in all_model_objs.values('country_of_incidence').distinct():
                     country_name = country['country_of_incidence']
                     by_country = selected_serializer(
                             all_model_objs.filter(incidence_datetime__year=year, country_of_incidence=country_name),
                             many=True).data
                     if data_format == 'raw':
-                        location_data.append(
-                            {country_name: by_country}
-                        )
+                        location_data[country_name] = by_country
                     else:
-                        location_data.append(
-                            {country_name: len(by_country)}
-                        )
-                serializer_data.append({year: location_data})
+                        location_data[country_name] = len(by_country)
+                serializer_data[year] = location_data
         elif selection_group == "incidence_year_region":
             for year in unique_years:
-                location_data = []
+                location_data = {}
                 for sub_region in all_model_objs.values('sub_region').distinct():
                     sub_region = sub_region['sub_region']
                     by_subregion = selected_serializer(
                             all_model_objs.filter(incidence_datetime__year=year, sub_region=sub_region),
                             many=True).data
                     if data_format == 'raw':
-                        location_data.append(
-                            {sub_region: by_subregion}
-                        )
+                        location_data[sub_region] = by_subregion
                     else:
-                        location_data.append(
-                            {sub_region: len(by_subregion)}
-                        )
-                serializer_data.append({year: location_data})
+                        location_data[sub_region] = len(by_subregion)
+                serializer_data[year] = location_data
         else:
             return Response(status=status.HTTP_400_BAD_REQUEST)
 
         return Response(serializer_data)
 
     except Exception as e:
-        print(e)
         return Response(status=status.HTTP_400_BAD_REQUEST)
