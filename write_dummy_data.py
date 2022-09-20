@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from records.models import Piracy, IUU, DrugTrafficking, ShipToShip, StowAway, MaritimeAccidents
+from records.models import Piracy, IUU, DrugTrafficking, ShipToShip, IllegalMigrations, MaritimeAccidents
 
 # Piracy.objects.all().delete()
 # IUU.objects.all().delete()
@@ -64,7 +64,7 @@ for index_row in range(len(dummy_df)):
         )
     )
     all_stow_away.append(
-        StowAway(
+        IllegalMigrations(
             country_of_incidence=dummy_df['country_of_incidence'][index_row],
             sub_region=dummy_df['sub_region'][index_row],
             incidence_datetime=dummy_df['incidence_datetime'][index_row],
@@ -90,5 +90,5 @@ Piracy.objects.bulk_create(all_piracy)
 IUU.objects.bulk_create(all_iuu)
 DrugTrafficking.objects.bulk_create(all_drug_trafficking)
 ShipToShip.objects.bulk_create(all_ship_to_ship)
-StowAway.objects.bulk_create(all_stow_away)
+IllegalMigrations.objects.bulk_create(all_stow_away)
 MaritimeAccidents.objects.bulk_create(all_maritime_accidents)

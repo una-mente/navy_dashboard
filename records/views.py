@@ -1,10 +1,11 @@
 # from django.shortcuts import render
+from django.shortcuts import render
 from rest_framework.decorators import api_view
 from rest_framework import status
 from rest_framework.response import Response
 from .serializers import PiracySerializer, IUUSerializer, DrugTraffickingSerializer, ShipToShipSerializer, \
-    StowAwaySerializer, MaritimeAccidentsSerializer
-from .models import Piracy, IUU, DrugTrafficking, ShipToShip, StowAway, MaritimeAccidents
+    IllegalMigrationsSerializer, MaritimeAccidentsSerializer
+from .models import Piracy, IUU, DrugTrafficking, ShipToShip, IllegalMigrations, MaritimeAccidents
 
 model_dict = {
     'piracy': {
@@ -20,7 +21,7 @@ model_dict = {
         'model': ShipToShip, 'serializer': ShipToShipSerializer
     },
     'stow_away': {
-        'model': StowAway, 'serializer': StowAwaySerializer
+        'model': IllegalMigrations, 'serializer': IllegalMigrationsSerializer
     },
     'maritime_accidents': {
         'model': MaritimeAccidents, 'serializer': MaritimeAccidentsSerializer
@@ -48,7 +49,7 @@ def my_incidents(request, model, selection_group, data_format):
         unique_years.sort()
         serializer_data = {}
         if selection_group == "all":
-            my_serializer = PiracySerializer(all_model_objs, many=True)
+            my_serializer = selected_serializer(all_model_objs, many=True)
             return Response(my_serializer.data) if data_format == 'raw' else Response({'all': len(my_serializer.data)})
         elif selection_group == "country":
             for country in all_model_objs.values('country_of_incidence').distinct():
@@ -101,4 +102,9 @@ def my_incidents(request, model, selection_group, data_format):
         return Response(serializer_data)
 
     except Exception as e:
+        print(f"\n{e}\n")
         return Response(status=status.HTTP_400_BAD_REQUEST)
+
+
+def records_page(request):
+    return render(request, 'records/index.html')

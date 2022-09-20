@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="f454a694-7872-46d9-8625-97d65f88d9f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navy_dashboard_dj/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/navy_dashboard_dj/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/records/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/records/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/records/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/records/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/records/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/records/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/records/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/records/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/records/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/records/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/write_dummy_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/write_dummy_data.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -25,6 +32,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2Dg9cJ35rAErZ1zySS2GftClcBk" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +44,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Argus Hub Repository\Projects\Navy\navy_dashboard\navy_dashboard_dj\static\lib" />
+      <recent name="D:\Argus Hub Repository\Projects\Navy\navy_dashboard\navy_dashboard_dj\static\my_lib" />
+      <recent name="D:\Argus Hub Repository\Projects\Navy\navy_dashboard\navy_dashboard_dj\templates\index" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="navy_dashboard_dj" type="Python.DjangoServer" factoryName="Django server">
@@ -73,6 +91,7 @@
       <workItem from="1661109973252" duration="35738000" />
       <workItem from="1661892853450" duration="3139000" />
       <workItem from="1662233062862" duration="1867000" />
+      <workItem from="1663400430076" duration="28174000" />
     </task>
     <servers />
   </component>

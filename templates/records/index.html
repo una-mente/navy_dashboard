@@ -1,0 +1,116 @@
+{% extends 'index/dashboard_base.html' %}
+{% load static %}
+
+{% block add_css_link %}
+    <style>
+    .entry_edit_button svg{
+        fill: green;
+    }
+    .entry_delete_button svg{
+        fill: red;
+    }
+    a:hover{
+        color: inherit;
+    }
+    </style>
+{% endblock %}
+
+
+{% block add_jav_script %}
+    <script src="{% static 'my_lib/records/dashboard_vue_settings.js' %}"></script>
+{% endblock %}
+
+{% block body %}
+    <q-layout view="hhh lpR lFf">
+
+        <q-header reveal elevated class="bg-teal-6 text-white">
+            <q-toolbar>
+                <q-btn v-if="!leftDrawerOpen" dense flat round icon="menu_open" @click="toggleLeftDrawer"></q-btn>
+                <q-btn v-if="leftDrawerOpen" dense flat round icon="close" @click="toggleLeftDrawer"></q-btn>
+
+                <q-toolbar-title shrink class="mx-auto text-h4 py-2">
+                    {% verbatim %}
+                    <span v-for="item in dash_section" v-show="sections[item.model_name].show">{{item.label}}</span>
+                    {% endverbatim %}
+                </q-toolbar-title>
+                <q-btn class="px-3" flat icon="admin_panel_settings" href="{% url 'admin:index' %}" target="_blank">Admin</q-btn>
+            </q-toolbar>
+        </q-header>
+
+        <q-drawer v-model="leftDrawerOpen" side="left" elevated :width="200">
+            <q-scroll-area class="fit">
+                <q-list padding class="menu-list">
+                    {% verbatim %}
+
+                    <q-item>
+                        <span class="text-uppercase text-h5 text-center" >Records</span>
+                    </q-item>
+                    <q-separator size="10px"></q-separator>
+                    <div v-for="item in dash_section">
+                        <q-item clickable v-ripple
+                                :active="sections[item.model_name].show"
+                                @click="showSection(item.model_name)" active-class="bg-teal text-white">
+                            <q-item-section avatar>
+                                <q-icon :color="sections[item.model_name].show? white:item.color"
+                                        :name="item.icon"></q-icon>
+                            </q-item-section>
+
+                            <q-item-section>{{item.label}}</q-item-section>
+
+                        </q-item>
+                        <q-separator size="10px"></q-separator>
+                    </div>
+                    {% endverbatim %}
+                </q-list>
+            </q-scroll-area>
+        </q-drawer>
+
+        <q-page-container class="m-3">
+            <div v-show="sections.Piracy.show">
+                <q-page-sticky position="top-left" :offset="[18, 18]">
+                    <q-btn fab icon="add" color="red-6" href="{% url 'admin:records_piracy_add' %}" target="_blank"
+                           glossy ripple dense></q-btn>
+                </q-page-sticky>
+                <table id='piracy_table' data-url="{% url 'my_incidents' 'piracy' 'all' 'raw' %}"></table>
+            </div>
+            <div v-show="sections.IUU.show">
+                <q-page-sticky position="top-left" :offset="[18, 18]">
+                    <q-btn fab icon="add" color="red-6" href="{% url 'admin:records_iuu_add' %}" target="_blank" glossy
+                           ripple dense></q-btn>
+                </q-page-sticky>
+                <table id='iuu_table' data-url="{% url 'my_incidents' 'iuu' 'all' 'raw' %}"></table>
+            </div>
+            <div v-show="sections.DrugTrafficking.show">
+                <q-page-sticky position="top-left" :offset="[18, 18]">
+                    <q-btn fab icon="add" color="red-6" href="{% url 'admin:records_drugtrafficking_add' %}"
+                           target="_blank" glossy ripple dense></q-btn>
+                </q-page-sticky>
+                <table id='drug_trafficking_table'
+                       data-url="{% url 'my_incidents' 'drug_trafficking' 'all' 'raw' %}"></table>
+            </div>
+            <div v-show="sections.ShipToShip.show">
+                <q-page-sticky position="top-left" :offset="[18, 18]">
+                    <q-btn fab icon="add" color="red-6" href="{% url 'admin:records_shiptoship_add' %}" target="_blank"
+                           glossy ripple dense></q-btn>
+                </q-page-sticky>
+                <table id='ship_to_ship_table' data-url="{% url 'my_incidents' 'ship_to_ship' 'all' 'raw' %}"></table>
+            </div>
+            <div v-show="sections.IllegalMigrations.show">
+                <q-page-sticky position="top-left" :offset="[18, 18]">
+                    <q-btn fab icon="add" color="red-6" href="{% url 'admin:records_illegalmigrations_add' %}"
+                           target="_blank" glossy ripple dense></q-btn>
+                </q-page-sticky>
+                <table class="mt-5" id='stow_away_table' data-url="{% url 'my_incidents' 'stow_away' 'all' 'raw' %}"></table>
+            </div>
+            <div v-show="sections.MaritimeAccidents.show">
+                <q-page-sticky position="top-left" :offset="[18, 18]">
+                    <q-btn fab icon="add" color="red-6" href="{% url 'admin:records_maritimeaccidents_add' %}"
+                           target="_blank" glossy ripple dense></q-btn>
+                </q-page-sticky>
+                <table id='maritime_accidents_table'
+                       data-url="{% url 'my_incidents' 'maritime_accidents' 'all' 'raw' %}"></table>
+            </div>
+        </q-page-container>
+
+    </q-layout>
+{% endblock %}
