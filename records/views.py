@@ -36,7 +36,7 @@ def my_incidents(request, model, selection_group, data_format):
         <strong>OPTIONS</strong><br>
         <ul>
             <li><strong>model</strong>: piracy, iuu, drug_trafficking, ship_to_ship, stow_away, maritime_accidents</li>
-            <li><strong>selection_group</strong>: all, country, incidence_year, incidence_year_country, incidence_year_region</li>
+            <li><strong>selection_group</strong>: all, country, incidence_year, incidence_year_country, incidence_year_region, incidence_year_quarter, incidence_year_halves</li>
             <li><strong>data_format</strong>: raw, tally </li>
         </ul>
     </div>
@@ -55,9 +55,9 @@ def my_incidents(request, model, selection_group, data_format):
             for country in all_model_objs.values('country_of_incidence').distinct():
                 country_name = country['country_of_incidence']
                 by_country = selected_serializer(
-                            all_model_objs.filter(country_of_incidence=country_name),
-                            many=True
-                        ).data
+                    all_model_objs.filter(country_of_incidence=country_name),
+                    many=True
+                ).data
                 if data_format == 'raw':
                     serializer_data[country_name] = by_country
                 else:
@@ -70,14 +70,32 @@ def my_incidents(request, model, selection_group, data_format):
                     serializer_data[year] = by_year
                 else:
                     serializer_data[year] = len(by_year)
+        elif selection_group == "incidence_year_quarter" or selection_group == "incidence_year_halves":
+            if selection_group == "incidence_year_quarter":
+                year_grouping = {'first': [1, 2, 3], 'second': [4, 5, 6], 'third': [7, 8, 9], 'fourth': [10, 11, 12]}
+            elif selection_group == "incidence_year_halves":
+                year_grouping = {'first': [1, 2, 3, 4, 5, 6], 'second': [7, 8, 9, 10, 11, 12]}
+            else:
+                raise ValueError('Unknown Selection')
+            for year in unique_years:
+                year_data = {}
+                for year_group in year_grouping.keys():
+                    by_year_group = selected_serializer(all_model_objs.filter(
+                        incidence_datetime__year=year, incidence_datetime__month__in=year_grouping[year_group]),
+                        many=True).data
+                    if data_format == 'raw':
+                        year_data[year_group] = by_year_group
+                    else:
+                        year_data[year_group] = len(by_year_group)
+                serializer_data[year] = year_data
         elif selection_group == "incidence_year_country":
             for year in unique_years:
                 location_data = {}
                 for country in all_model_objs.values('country_of_incidence').distinct():
                     country_name = country['country_of_incidence']
                     by_country = selected_serializer(
-                            all_model_objs.filter(incidence_datetime__year=year, country_of_incidence=country_name),
-                            many=True).data
+                        all_model_objs.filter(incidence_datetime__year=year, country_of_incidence=country_name),
+                        many=True).data
                     if data_format == 'raw':
                         location_data[country_name] = by_country
                     else:
@@ -89,8 +107,8 @@ def my_incidents(request, model, selection_group, data_format):
                 for sub_region in all_model_objs.values('sub_region').distinct():
                     sub_region = sub_region['sub_region']
                     by_subregion = selected_serializer(
-                            all_model_objs.filter(incidence_datetime__year=year, sub_region=sub_region),
-                            many=True).data
+                        all_model_objs.filter(incidence_datetime__year=year, sub_region=sub_region),
+                        many=True).data
                     if data_format == 'raw':
                         location_data[sub_region] = by_subregion
                     else:
